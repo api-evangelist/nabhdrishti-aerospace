@@ -1,8 +1,26 @@
 aid: nabhdrishti-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nabhdrishti-aerospace.png
 name: Nabhdrishti Aerospace
-description: 'Nabhdrishti Aerospace is a company surfaced as a portfolio company of accel and added to
-  the API Evangelist network as a stub for enrichment. Sector: energy. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Nabhdrishti Aerospace is a Bangalore-based deep-tech startup building
+  India''s first fuel-flex micro gas turbine for aviation and power generation. Its
+  ND 400 engine is a 400 N single-core micro gas turbine designed for UAVs, hybrid-electric
+  aircraft, and small aircraft as well as oil & gas, manufacturing, and vehicle range-extender
+  power generation, running on conventional fuels, biofuels, and hydrogen with an
+  innovative recuperator design that targets greater than 15% efficiency at under
+  half the cost of competing turbines. Backed by Accel, the company raised USD 3M
+  and operates from the IISc Bangalore IHUB. As a hardware manufacturer it publishes
+  no public API, SDK, or developer platform; this profile tracks its public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/nabhdrishti-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Energy
+- Aerospace
+- Propulsion
+- Gas Turbine
+- Aviation
+- Power Generation
+- Hardware
+- Deep Tech
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nabhdrishti-aerospace-domain-security.yml
 - type: Website
   url: https://nabhdrishti.in/
+- type: Blog
+  url: https://blog.nabhdrishti.in/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
